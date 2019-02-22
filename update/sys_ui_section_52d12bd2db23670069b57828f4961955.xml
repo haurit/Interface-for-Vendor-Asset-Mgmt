@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="52d12bd2db23670069b57828f4961955" sys_domain="global" table="x_snc_if_vendr_ast_create" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>tom.hauri</sys_created_by>
+            <sys_created_on>2019-02-13 10:29:00</sys_created_on>
+            <sys_id>62d12bd2db23670069b57828f4961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_if_vendr_ast_create" sys_domain="global" view="Default view">52d12bd2db23670069b57828f4961955</sys_ui_section>
+            <sys_updated_by>tom.hauri</sys_updated_by>
+            <sys_updated_on>2019-02-13 10:29:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_asset_tag</element>
+            <position>1</position>
+            <sys_created_by>tom.hauri</sys_created_by>
+            <sys_created_on>2019-02-13 10:29:00</sys_created_on>
+            <sys_id>6ed12bd2db23670069b57828f4961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_if_vendr_ast_create" sys_domain="global" view="Default view">52d12bd2db23670069b57828f4961955</sys_ui_section>
+            <sys_updated_by>tom.hauri</sys_updated_by>
+            <sys_updated_on>2019-02-13 10:29:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>tom.hauri</sys_created_by>
+            <sys_created_on>2019-02-13 10:29:00</sys_created_on>
+            <sys_id>eed12bd2db23670069b57828f4961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_if_vendr_ast_create" sys_domain="global" view="Default view">52d12bd2db23670069b57828f4961955</sys_ui_section>
+            <sys_updated_by>tom.hauri</sys_updated_by>
+            <sys_updated_on>2019-02-13 10:29:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_class</element>
+            <position>3</position>
+            <sys_created_by>tom.hauri</sys_created_by>
+            <sys_created_on>2019-02-13 10:29:00</sys_created_on>
+            <sys_id>62d12bd2db23670069b57828f4961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_if_vendr_ast_create" sys_domain="global" view="Default view">52d12bd2db23670069b57828f4961955</sys_ui_section>
+            <sys_updated_by>tom.hauri</sys_updated_by>
+            <sys_updated_on>2019-02-13 10:29:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>tom.hauri</sys_created_by>
+            <sys_created_on>2019-02-13 10:29:00</sys_created_on>
+            <sys_id>e2d12bd2db23670069b57828f4961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_if_vendr_ast_create" sys_domain="global" view="Default view">52d12bd2db23670069b57828f4961955</sys_ui_section>
+            <sys_updated_by>tom.hauri</sys_updated_by>
+            <sys_updated_on>2019-02-13 10:29:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_if_vendr_ast_create</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tom.hauri</sys_created_by>
+            <sys_created_on>2019-02-13 10:28:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52d12bd2db23670069b57828f4961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_if_vendr_ast_create</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Interface for Vendor Asset Mgmt" source="x_snc_if_vendr_ast">ad2ecb16dbef270069b57828f4961925</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Interface for Vendor Asset Mgmt">ad2ecb16dbef270069b57828f4961925</sys_scope>
+            <sys_update_name>sys_ui_section_52d12bd2db23670069b57828f4961955</sys_update_name>
+            <sys_updated_by>tom.hauri</sys_updated_by>
+            <sys_updated_on>2019-02-13 10:28:59</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

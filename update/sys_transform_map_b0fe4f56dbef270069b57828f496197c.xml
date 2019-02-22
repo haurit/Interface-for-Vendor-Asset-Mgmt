@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Create Asset</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+	
+	var _ServerSideCode = new ServerSideCode();
+	var oRetVal = _ServerSideCode.transformRunScript(source, target, map, log, isUpdate);
+	status_message = oRetVal.status;
+	response.comments = oRetVal.comments;
+	Object.keys(oRetVal.fields).forEach(function(sKey) {
+		response[sKey] = oRetVal.fields[sKey];
+	}); // each custom field
+	
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_snc_if_vendr_ast_create</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>tom.hauri</sys_created_by>
+        <sys_created_on>2019-02-13 09:06:46</sys_created_on>
+        <sys_id>b0fe4f56dbef270069b57828f496197c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Create Asset</sys_name>
+        <sys_package display_value="Interface for Vendor Asset Mgmt" source="x_snc_if_vendr_ast">ad2ecb16dbef270069b57828f4961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interface for Vendor Asset Mgmt">ad2ecb16dbef270069b57828f4961925</sys_scope>
+        <sys_update_name>sys_transform_map_b0fe4f56dbef270069b57828f496197c</sys_update_name>
+        <sys_updated_by>tom.hauri</sys_updated_by>
+        <sys_updated_on>2019-02-13 11:12:22</sys_updated_on>
+        <target_table>alm_hardware</target_table>
+    </sys_transform_map>
+</record_update>

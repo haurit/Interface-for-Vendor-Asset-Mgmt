@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Interface for Vendor Asset Mgmt">ad2ecb16dbef270069b57828f4961925</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>rest.guest</sys_created_by>
+        <sys_created_on>2019-02-13 10:08:50</sys_created_on>
+        <sys_id>db3d9f9edbef270069b57828f49619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.setValue</sys_name>
+        <sys_package display_value="Interface for Vendor Asset Mgmt" source="x_snc_if_vendr_ast">ad2ecb16dbef270069b57828f4961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interface for Vendor Asset Mgmt">ad2ecb16dbef270069b57828f4961925</sys_scope>
+        <sys_update_name>sys_scope_privilege_db3d9f9edbef270069b57828f49619de</sys_update_name>
+        <sys_updated_by>rest.guest</sys_updated_by>
+        <sys_updated_on>2019-02-13 10:08:50</sys_updated_on>
+        <target_name>GlideRecord.setValue</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

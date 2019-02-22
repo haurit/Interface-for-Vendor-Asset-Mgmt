@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Create Asset">b0fe4f56dbef270069b57828f496197c</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	var _ServerSideCode = new ServerSideCode();
+	_ServerSideCode.transformOnAfter(source, map, log);
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>tom.hauri</sys_created_by>
+        <sys_created_on>2019-02-13 09:17:37</sys_created_on>
+        <sys_id>b651d7d6dbef270069b57828f4961950</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="Interface for Vendor Asset Mgmt" source="x_snc_if_vendr_ast">ad2ecb16dbef270069b57828f4961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interface for Vendor Asset Mgmt">ad2ecb16dbef270069b57828f4961925</sys_scope>
+        <sys_update_name>sys_transform_script_b651d7d6dbef270069b57828f4961950</sys_update_name>
+        <sys_updated_by>tom.hauri</sys_updated_by>
+        <sys_updated_on>2019-02-13 10:06:09</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

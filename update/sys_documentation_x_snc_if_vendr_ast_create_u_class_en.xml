@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_class" label="Class" language="en" table="x_snc_if_vendr_ast_create">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_class</element>
+            <help/>
+            <hint/>
+            <label>Class</label>
+            <language>en</language>
+            <name>x_snc_if_vendr_ast_create</name>
+            <plural>Class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tom.hauri</sys_created_by>
+            <sys_created_on>2019-02-13 09:06:23</sys_created_on>
+            <sys_id>50fe4f56dbef270069b57828f4961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Class</sys_name>
+            <sys_package display_value="Interface for Vendor Asset Mgmt" source="x_snc_if_vendr_ast">ad2ecb16dbef270069b57828f4961925</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Interface for Vendor Asset Mgmt">ad2ecb16dbef270069b57828f4961925</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_if_vendr_ast_create_u_class_en</sys_update_name>
+            <sys_updated_by>tom.hauri</sys_updated_by>
+            <sys_updated_on>2019-02-13 09:06:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
